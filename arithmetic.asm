@@ -1,7 +1,7 @@
-TITLE Elementary Arithmetic     (Program1.asm)
+TITLE Elementary Arithmetic     (arithmetic.asm)
 
-; Author: Andrew Swaim			swaima@oregonstate.edu
-; CS271-400		Program #1      1/21/2018
+; Author: Andrew Swaim
+; Date: 1/21/2018
 ; Description: Displays my name and program title on the output screen;
 ;		displays instructions for the user; prompts the user to enter
 ;		two numbers; calculates the sum, difference, product, (integer)
