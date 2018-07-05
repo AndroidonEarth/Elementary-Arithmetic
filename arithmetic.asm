@@ -21,7 +21,6 @@ quot		DWORD	?		;quotient of the numbers
 remain		DWORD	?		;remainder of the quotient
 program		BYTE	"	Elementary Arithmetic",0
 author		BYTE	"	by Andrew Swaim",0
-ec			BYTE	"**EC: Program verifies second number less than first.",0
 rules1		BYTE	"Enter 2 numbers, and I'll show you the sum, difference,",0
 rules2		BYTE	"product, quotient, and remainder.",0
 prompt1		BYTE	"First number: ",0
@@ -43,10 +42,6 @@ main PROC
 	call	WriteString
 ;Display author name
 	mov		edx,OFFSET author
-	call	WriteString
-	call	Crlf
-;Display indication of extra credit
-	mov		edx,OFFSET ec
 	call	WriteString
 	call	Crlf
 	call	Crlf
